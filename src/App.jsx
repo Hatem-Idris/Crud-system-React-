@@ -49,7 +49,7 @@ export default function App() {
   // map()
   return (
     <div>
-      <div className="flex flex-wrap justify-evenly border-b-2 border-b-neutral-950 p-2 gap-5 mb-5">
+      <div className="flex justify-evenly border-b-0 md:border-b-2 border-b-neutral-950 p-2 gap-5 mb-5 w-12/12">
         <button
           onClick={() => {
             addNewPhone();
