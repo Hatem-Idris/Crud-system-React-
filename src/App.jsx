@@ -21,7 +21,6 @@ export default function App() {
     let copy = [...phones];
     copy.push(newObj);
     setPhones(copy);
-    showphone()
   };
   const deletephone = () => {
     let deleteindex = +prompt("Please enter phone index you want to delete");
